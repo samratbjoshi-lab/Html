@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form in HTML</h1>
+    <form method="" action="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Samrat Joshi" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com"required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="pw" id="password" placeholder="********" required>
+        <br><br>
+        <label for="">Gender</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="cv">CV</label>
+        <input type="file" name="cv" id="cv" multiple accept=".pdf, .png">
+        <br><br>
+        <label for="">Postal code</label>
+        <input type="text" name="postalcode" id="postal" pattern="[0-9]{5}" placeholder="10015">
+        <br><br>
+        <input type="date" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <br><br>
+        <input type="color" name="" id="">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset" >
+    </form>
+    <!-- 
+    form - initiates the form
+    input - used to generete input fields like text, password, email, etc
+    id - unique identifier for web page
+    label - to name/ caption the input field
+    for- same value as id in input field.
+    name - value responsible to recieve data in backend
+    placeholder - to show text while filling the form
+    method - how data is send in the server
+    get - can only send upto 2000 characters, data visible in the URL.
+    post - can send large data in a form, data is secured during for submission
+    input-email - for email validation
+    input-password - for password
+    input-submit - form submission
+    input-radio - multiple choice single select
+    -->
+</body>
+</html>
