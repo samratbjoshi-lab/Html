@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Day 2</title>
+</head>
+
+<body>
+    <h1>Form Day 2 in HTML</h1>
+    <form action="/submit.php" method="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="John Doe">
+        <br><br>
+        <!-- Checkbox -->
+        <label for="skills">Checkbox</label>
+        <br>
+        <input type="checkbox" name="skills" id="C" value="C">
+        <label for="C">C Programing</label>
+        <br>
+        <input type="checkbox" name="skills" id="Python" value="Python">
+        <label for="Python">Python</label>
+        <br>
+        <input type="checkbox" name="skills" id="CyberSecurity" value="CyberSecurity">
+        <label for="CyberSecurity">CyberSecurity</label>
+        <br>
+        <input type="checkbox" name="skills" id="Networking" value="Networking">
+        <label for="Networking">Networking</label>
+        <br><br>
+        <!-- select/options -->
+        <label for="Country">Country</label>
+        <select name="Country" id="Country">
+            <option value="" disabled selected>Default</option>
+            <optgroup label="Asia">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </optgroup>
+            <optgroup label="Australia">
+                <option value="Australia">Australia</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="Britain">Britain</option>
+                <option value="Spain">Spain</option>
+                <option value="Franch">Franch</option>
+                <option value="Italy">Italy</option>
+                <option value="Portugal">Portugal</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <label for="coverletter">Cover Letter</label>
+        <br>
+        <textarea name="" id="" rows="15" cols="25"></textarea>
+        <br><br>
+        <label for="">URL</label>
+        <input type="url" name="" id="" placeholder="www.abc.com">
+        <br><br>
+        <label for="">Number</label>
+        <input type="number" name="" id="">
+        <br><br>
+        <label for="">Volume</label>
+        <input type="range" name="" id="" min="0" max="100" step="2">
+        <br><br>
+        <!-- <input type= "submit" value= "Submit"> -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

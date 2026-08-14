@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Appliaction</title>
+</head>
+
+<body>
+    <h1>Job Application</h1>
+    <form action="">
+        <h2>Personal Detail</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Samrat Joshi">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="samrat@gmail.com">
+        <br><br>
+        <label for="contact">Contact</label>
+        <input type="text" name="contact" id="contact" placeholder="9869860852">
+        <br><br>
+        <label for="gender">Gender</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="provience">Provience</label>
+        <select name="province" id="provience">
+            <option value="" disabled selected>Default</option>
+            <option value="">Koshi</option>
+            <option value="">Madesh</option>
+            <option value="">Bagmati</option>
+            <option value="">Gandaki</option>
+            <option value="">Lumbini</option>
+            <option value="">Karnali</option>
+            <option value="">Sudurpaschim</option>
+        </select>
+        <hr>
+
+        <h2>Skills</h2>
+        <label for="skills">Skills</label>
+        <br>
+        <input type="checkbox" name="skills" id="C" value="C">
+        <label for="C">C Programming</label>
+        <br>
+        <input type="checkbox" name="skills" id="Python" value="Python">
+        <label for="Python">Python</label>
+        <br>
+        <input type="checkbox" name="skills" id="Networking" value="Networking">
+        <label for="c">Networking</label>
+        <br>
+        <input type="checkbox" name="skills" id="CyberSecurity" value="CyberSecurity">
+        <label for="CyberSecurity">CyberSecurity</label>
+        <br>
+        <input type="checkbox" name="skills" id="machineLearning" value="machineLearning">
+        <label for="machineLearning">MachineLearning</label>
+        <br>
+        <input type="checkbox" name="skills" id="Devops" value="Devops">
+        <label for="Devops">Devops</label>
+        <br>
+        <input type="checkbox" name="skills" id="Cloud" value="Cloud">
+        <label for="Cloud">Cloud</label>
+        <br><br>
+
+        <label for="coverletter">Coverletter</label><br>
+        <textarea name="coverletter" id="coverletter" rows="15" cols="65"></textarea>
+        <br><br>
+        <label for="cv">CV</label>
+        <input type="file" name="cv" id="cv" multiple accept=".pdf">
+        <br><br>
+        <hr>
+        <h2>Education</h2>
+        <label for="education">Education</label>
+        <select name="" id="">
+            <option value="" disabled selected>Default</option>
+            <option value="">High School</option>
+            <option value="">Bachelor</option>
+            <option value="">Masters</option>
+        </select>
+        <hr>
+        <h2>Proffesional</h2>
+        <label for="work">Previous Organization</label>
+        <input type="text" name="work" id="work">
+        <br><br>
+        <label for="experience">Work Experience</label>
+        <select name="experience" id="experience">
+            <option value="">1 Year</option>
+            <option value="">2 Years</option>
+            <option value="">3 Years</option>
+            <option value="">4 Years</option>
+        </select>
+        <br><br>
+        <button type="submit">Button</button>
+
+    </form>
+</body>
+
+</html>
