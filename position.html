@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        #relative{
+            position: relative;
+            left: 50px;
+            top: 20px;
+
+        }
+        #absolute{
+            position: absolute;
+            left: 50px;
+            top: 20px;
+
+        }
+        .parent{
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            position: relative;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: absolute;
+            top: 50px;
+            left: 7opx;
+        }
+        #fixed{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+        #sticky{
+            position: sticky;
+            top: 200px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Position</h1>
+    <!-- 
+    Position:
+    Syntax:
+    Position: relative/ absolute/ fixed/ sticky/ static
+    relative: relative to original position
+    absoulute: relative to parent position
+    fixed: fixed position
+    sticky: movable until it reach fixed position offset
+    static: position offset cannot be used
+
+    position-offset: left/ right/ top/ bottom.
+    -->
+    <p>Relative</p>
+    <div class="container" id="relative">
+        Relative
+    </div>
+    <p>Absolute</p>
+    <div class="container" id="absolute">
+        Absolute
+    </div>
+    <!-- another example -->
+    <p>Absolute</p>
+    <div class="parent" >
+        <div class="child">Absolute</div>
+    </div>
+    <p>Fixed</p>
+    <div class="container" id="fixed">
+        Fixed
+    </div>
+    <p>Sticky</p>
+    <div class="container"  id="sticky">
+        Sticky
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta aspernatur, fugiat est, ipsum possimus perferendis quam in sed at laudantium doloribus quas quidem magnam inventore a quo distinctio. Repellat esse commodi cupiditate debitis porro exercitationem. Sit eius minima tempore labore. Et quo eius similique dolorem? Excepturi similique quisquam perferendis ducimus vel eveniet unde atque aliquid soluta repellendus! Perspiciatis nesciunt libero nobis quaerat facere molestiae aperiam itaque! Itaque alias quasi error nisi quas incidunt, voluptatibus maiores. Veritatis at, obcaecati doloremque neque aliquam repellat quo iste eaque fugiat dolor quis ipsum error, harum repudiandae assumenda atque? Cumque deserunt vel tempora exercitationem veniam?
+    </div>
+    <p>Static</p>
+    <div class="cointainer" id="static">
+        Absolute
+    </div>
+</body>
+</html>

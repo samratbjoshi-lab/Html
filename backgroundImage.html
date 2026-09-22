@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Background Image*/
+        .container{
+            height: 600px;
+            width: 600px;
+            border: 1px solid black;
+        }
+        #auto{
+            background-image: url('../IMAGE/Screenshot\ 2026-03-13\ 214322.png');
+            background-size: auto;
+        }
+        #cover{
+            background-image: url('../IMAGE/Screenshot\ 2026-03-13\ 214322.png');
+            background-size: cover;
+        }
+        #contain{
+            background-image: url('../IMAGE/Screenshot\ 2026-03-13\ 214322.png');
+            background-size: contain;background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Image</h1>
+    <p>Auto</p>
+    <div class="container" id="auto"> 
+
+    </div>
+    <p>Cover</p>
+    <div class="container" id="cover">
+
+    </div>
+    <p>Contain</p>
+    <div class="container" id="contain">
+
+    </div>
+</body>
+</html>
